@@ -1,4 +1,4 @@
-package enums;
+package poo.enums;
 
 public enum EstadoBrasileiro {
 	SAO_PAULO ("SP","São Paulo", 11),

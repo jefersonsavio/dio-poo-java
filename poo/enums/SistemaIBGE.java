@@ -1,6 +1,4 @@
-package enums;
-
-
+package poo.enums;
 
 /*
  * Enum, é um tipo especial de classe, onde os objetos são previamente criados, imutáveis e disponíveis por toda aplicação.
@@ -24,5 +22,3 @@ public class SistemaIBGE {
 	}
 
 }
-
-

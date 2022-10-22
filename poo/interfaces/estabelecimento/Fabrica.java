@@ -1,7 +1,6 @@
 package poo.interfaces.estabelecimento;
 
 import poo.interfaces.equipamentos.copiadora.Copiadora;
-import poo.interfaces.equipamentos.copiadora.Xerox;
 import poo.interfaces.equipamentos.digitalizadora.Digitalizadora;
 import poo.interfaces.equipamentos.impressora.Impressora;
 import poo.interfaces.equipamentos.multifuncional.Multifuncional;

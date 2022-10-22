@@ -1,4 +1,4 @@
-package poo.abstracao;
+package poo.abstracaoeheranca;
 
 public class Telegram extends EnvioDeMensagemInstantanea{
 
@@ -10,6 +10,16 @@ public class Telegram extends EnvioDeMensagemInstantanea{
     @Override
     public void receberMensagem() {
     System.out.println("RECEBENDO MENSAGEM PLEO TELEGRAM");        
+    }
+
+    @Override
+    public void validarConectadoInternet() {
+        super.validarConectadoInternet();
+    }
+
+    @Override
+    public void salvarHistoricoDeMensagem() {
+        
     }
     
 }

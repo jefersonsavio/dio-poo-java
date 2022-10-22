@@ -1,4 +1,4 @@
-package poo.abstracao;
+package poo.abstracaoeheranca;
 
 public class Facebook extends EnvioDeMensagemInstantanea {
 
@@ -10,6 +10,16 @@ public class Facebook extends EnvioDeMensagemInstantanea {
     @Override
     public void receberMensagem() {
         System.out.println("RECEBENDO MENSAGEM PELO FACEBOOK");        
+    }
+
+    @Override
+    protected void validarConectadoInternet() {
+        super.validarConectadoInternet();
+    }
+
+    @Override
+    public void salvarHistoricoDeMensagem() {
+        
     }
     
 }

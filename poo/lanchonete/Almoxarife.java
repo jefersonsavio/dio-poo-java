@@ -1,6 +1,6 @@
 package poo.lanchonete;
 
-public class Almoxarife {
+
 
     public class Almoxarife {
 	
@@ -19,6 +19,12 @@ public class Almoxarife {
         }
     
     }
-    
-    
-}
+
+   
+   
+
+   
+   
+   
+   
+

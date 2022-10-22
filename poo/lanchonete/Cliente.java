@@ -1,4 +1,4 @@
-
+package poo.lanchonete;
 
 public class Cliente {
 	
